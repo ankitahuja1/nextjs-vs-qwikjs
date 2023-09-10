@@ -5,9 +5,6 @@ export default async function Page({ params }) {
 
   return (
     <div key={product.id}>
-      <span style={{ maxWidth: "30%", display: "inline-block" }}>
-        <Image priority={true} alt={"product image"} width={600} height={1000} src={product.image}></Image>
-      </span>
       <span style={{ maxWidth: "70%", display: "inline-block" }}>
         <h1>{product.title}</h1>
         <p>{product.description}</p>

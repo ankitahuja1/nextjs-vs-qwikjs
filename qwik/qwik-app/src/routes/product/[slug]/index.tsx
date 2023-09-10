@@ -24,16 +24,6 @@ export default component$<{ value: string }>(() => {
           <div key={resources.id}>
             <span
               style={{
-                maxWidth: "25%",
-                display: "inline-block",
-                margin: "10px",
-                boxSizing:"border-box"
-              }}
-            >
-              <img style={{ maxWidth: "100%" }} src={resources.image}></img>
-            </span>
-            <span
-              style={{
                 maxWidth: "70%",
                 display: "inline-block",
                 margin: "10px",
